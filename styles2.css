@@ -1,0 +1,37 @@
+/* Estilos adicionais para o site */
+
+/* Estilizando os botões */
+button {
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    margin: 0px 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #ff6e40; /* Cor laranja mais clara ao passar o mouse */
+}
+
+/* Estilizando o cabeçalho */
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Estilizando o carrinho no cabeçalho */
+#carrinho-link {
+    background-color: #e44d26;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+#carrinho-link:hover {
+    background-color: #ff6e40;
+}
